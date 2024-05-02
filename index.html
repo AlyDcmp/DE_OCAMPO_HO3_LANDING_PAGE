@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thai Riffic Taste</title>
+   <link rel="stylesheet" type="text/css" href="style.css">
+
+
+   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Thai Riffic Taste</a>   
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+         <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+         </ul>
+    </div>
+    <div class="nav-button">
+        <button class="btn" id="loginBtn" ><a href="login.html">Log In</a></button>
+        <button class="btn" id="registerBtn"><a href="signup.html">Sign Up</a></button>
+    </div>
+</header>
+
+ <!--H O M E--> 
+ <section class="home" id="home">
+    <div class="home-text">
+        <h1>Thai Taste</h1>
+        <h2>Flavorful Thai Vibes</h2>
+            <a href="#" class="btn">Today's Menu</a>
+    </div>
+
+    <div class="home-img">
+        <img src="./Image/Dessert1.png" alt="">
+    </div> 
+</section>
+
+ <!--A B O U T--> 
+ <section class="about" id="about">
+    <div class="about-img">
+        <img src="./Image/Lname.png" alt="">
+    </div>
+
+    <div class="about-text">
+        <span>About Us</span>
+        <h2>Authentic Thai Culinary Dishes</h2>
+        <p>
+            Welcome to Thai Reffic Taste, where authentic Thai food is serve.
+            Thai Reffic Taste is a culinary paradise that brings the vibrant flavors of 
+            Thailand to your plate.
+        </p>
+        <a href="#" class="btn"> Learn More</a>
+    </div>
+</section>
+
+<!--M E N U--> 
+<section class="menu" id="menu">
+    <div class="heading">
+        <span>Food Menu</span>
+        <h2>Authentic taste and a great price</h2>
+    </div>
+    <div class="menu-container">
+        <button class="prev-btn" onclick="movePrev()">&#10094;</button>
+        <div class="box">
+            <div class="box-img">
+                <img src="./Image/Dish1.png" alt="">
+                <h2>Pad Thai</h2>
+                <h3>Stir-fried noodles</h3>
+                <span>$3.00</span>
+                <i class='bx bxs-cart-alt'></i>
+            </div> 
+        </div>
+
+        <div class="box">
+            <div class="box-img">
+                <img src="./Image/Dish2.png" alt="">
+                <h2>Gaeng Keow Wan Gai</h2>
+                <h3>Green Curry</h3>
+                <span>$2.00</span>
+                <i class='bx bxs-cart-alt'></i>
+            </div> 
+        </div>
+
+        <div class="box">
+            <div class="box-img">
+                <img src="./Image/Dish3.png" alt="">
+                <h2>Khao Pad</h2>
+                <h3>Thai Fried Rice</h3>
+                <span>$3.00</span>
+                <i class='bx bxs-cart-alt'></i>
+            </div> 
+        </div>
+
+        <div class="box">
+            <div class="box-img">
+                <img src="./Image/Dish4.png" alt="">
+                <h2> Khao Soi</h2>
+                <h3>Thai Coconut Curry Noodle Soup</h3>
+                <span>$4.00</span>
+                <i class='bx bxs-cart-alt'></i>
+            </div> 
+        </div>
+
+        <div class="box">
+            <div class="box-img">
+                <img src="./Image/Dessert1.png" alt="">
+                <h2>Khao Neow Mamuang</h2>
+                <h3>Mango Sticky Rice</h3>
+                <span>$3.50</span>
+                <i class='bx bxs-cart-alt'></i>
+            </div> 
+        </div>
+
+        <div class="box">
+            <div class="box-img">
+                <img src="./Image/Dessert2.png" alt="">
+                <h2>Sang Ka Ya Fak Tong</h2>
+                <h3>Pumpkin and Coconut Custard</h3>
+                <span>$3.50</span>
+                <i class='bx bxs-cart-alt'></i>
+            </div> 
+        </div>
+
+        <div class="box">
+            <div class="box-img">
+                <img src="./Image/Drinks.png" alt="">
+                <h2>Cha Yen</h2>
+                <h3>Thai Iced Tea</h3>
+                <span>$1.00</span>
+                <i class='bx bxs-cart-alt'></i>
+            </div> 
+        </div>
+        <button class="next-btn" onclick="moveNext()">&#10095;</button>
+    </div>
+</section>
+
+
+ <!--SERVICES START-->
+ <section class="service" id="service">
+    <div class="head">
+        <span>Service</span>
+        <h2>We provide best quality food</h2>
+    </div>
+    <div class="service-container">
+        <div class="s-box">
+            <img src="./Image/Service.png" alt="">
+            <h3>Order</h3>
+            <p>You're craving traditional Pad Thai or Green Curry, our menu offers a delectable selection 
+                that will satisfy your Thai food cravings.
+            </p>
+        </div>
+
+        <div class="s-box">
+            <img src="./Image/Delivery.png" alt="">
+            <h3>Shipping</h3>
+            <p>You're craving traditional Pad Thai or Green Curry, our menu offers a delectable selection 
+                that will satisfy your Thai food cravings.
+            </p>
+        </div>
+
+        <div class="s-box">
+            <img src="./Image/Ship.png" alt="">
+            <h3>Delivered</h3>
+            <p>You're craving traditional Pad Thai or Green Curry, our menu offers a delectable selection 
+                that will satisfy your Thai food cravings.
+            </p>
+        </div>
+    </div>
+ </section>
+
+ <!-- C A L L-->
+ <section class="call">
+    <h2>We make quality food <br>Everyday</h2> 
+    <a href="#" class="btn"> Let's talk</a>
+ </section>
+
+ <!--F O O T E R-->
+ <section id="contact">
+    <div class="footer">
+        <div class="main">
+            <div class="col">
+                <h4>Menu Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#menu">Menu</a</li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h4>Our Service</h4>
+                <ul>
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Marketing</a</li>
+                    <li><a href="#">Product Management</a></li>
+                    <li><a href="#">Graphic Design</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h4>Information </h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Delivery Information</a></li>
+                    <li><a href="#">Privacy Policy</a</li>
+                    <li><a href="#">Terms & Condition</a></li>
+                </ul>
+            </div>
+
+            <div class="col">
+                <h4>Contact Us </h4>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-twitter' ></i></a>
+                    <a href="#"><i class='bx bxl-gmail' ></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+ </section>
+ 
+<!-- Add JavaScript  -->
+<script>
+    let currentIndex = 0;
+    const slides = document.querySelectorAll('.box');
+    const prevBtn = document.querySelector('.prev-btn');
+    const nextBtn = document.querySelector('.next-btn');
+
+    function showSlide(index) {
+        slides.forEach((slide, i) => {
+            if (i === index) {
+                slide.style.display = 'block';
+            } else {
+                slide.style.display = 'none';
+            }
+        });
+    }
+
+    function movePrev() {
+        currentIndex--;
+        if (currentIndex < 0) {
+            currentIndex = slides.length - 1;
+        }
+        showSlide(currentIndex);
+    }
+
+    function moveNext() {
+        currentIndex++;
+        if (currentIndex >= slides.length) {
+            currentIndex = 0;
+        }
+        showSlide(currentIndex);
+    }
+
+ 
+    showSlide(currentIndex);
+
+  
+    prevBtn.addEventListener('click', movePrev);
+    nextBtn.addEventListener('click', moveNext);
+</script>
+</body>
+</html>
